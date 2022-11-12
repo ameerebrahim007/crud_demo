@@ -5,7 +5,7 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom';
 
 function App() {
   return (
-    <BrowserRouter basename="/react-crud">
+    <BrowserRouter basename="/crud_demo">
         <Routes>
           <Route path="/login" element={<Login/>} />
           <Route path="/" element={<Login/>} />
